@@ -29,18 +29,18 @@ Capacity = 10
 
 We’ll go ahead and create an array of the length of ‘capacity’ + 1. Each index in the array represents capacity.
 
-![23](/assets/knapsack-array1.jpg)
+![knapsack array 1]({{ site.baseurl }}/assets/knapsack-array1.jpg)
 
 We will loop through each item and fill each index with the maximum value for the capacity so far.
 The first item has a value of 2 and a weight of 5.
 
-![23](/assets/knapsack-weight5.jpg)
+![knapsack weight 5]({{ site.baseurl }}/assets/knapsack-weight5.jpg)
 
 As you can see, for the first item with a weight of 5 we can only hold 2 when the minimum capacity is 5. Let’s go to the next item.
 
 Since we are aiming to find the maximum value of all the items considered thus far within the given capacity, for the next item, we must compare two values. We compare the current value, which is 2, and, considering the item's weight is 4, we also assess if we could accommodate the maximum value of 6, given the capacity is 10. Which we can so we add those values together in the at index 10 (capacity of 10). Subsequently, at a capacity of 9, we evaluate the maximum value at 5, and so on.
 
-![knapsack item-2](/assets/knapsack-weight4.jpg)
+![knapsack item-2]({{ site.baseurl }}/assets/knapsack-weight4.jpg)
 
 The code so far would look something like this:
 
@@ -59,7 +59,7 @@ function knapsackBottomUp(weights, values, capacity){
 
 We will continue filling this out. As you can see, we are breaking down our problem into subproblems and populating the maximum values for each capacity limit. After iterating through each item, the resulting dp array would look something like this:
 
-![knapsack all weights](/assets/knapsack-weightsall.jpg)
+![knapsack all weights]({{ site.baseurl }}/assets/knapsack-weightsall.jpg)
 
 From here we can just return the last index after we are finished calculating the array with the last item. Voila! The maximum value at a capacity of 10 is 11.
 
