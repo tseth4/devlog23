@@ -27,7 +27,7 @@ Values = [2, 1, 3, 4, 5]
 Capacity = 10
 ```
 
-We’ll go ahead and create an array of the length of ‘capacity’ + 1. Each index in the array represents capacity.
+We’ll go ahead and create an array of the length of ‘capacity’ + 1. Each index in the array represents a capacity.
 
 ![knapsack array 1]({{ site.baseurl }}/assets/knapsack-array1.jpg)
 
@@ -38,7 +38,7 @@ The first item has a value of 2 and a weight of 5.
 
 As you can see, for the first item with a weight of 5 we can only hold 2 when the minimum capacity is 5. Let’s go to the next item.
 
-Since we are aiming to find the maximum value of all the items considered thus far within the given capacity, for the next item, we must compare two values. We compare the current value, which is 2, and, considering the item's weight is 4, we also assess if we could accommodate the maximum value of 6, given the capacity is 10. Which we can so we add those values together in the at index 10 (capacity of 10). Subsequently, at a capacity of 9, we evaluate the maximum value at 5, and so on.
+Since our goal is to determine the maximum value of all the items considered thus far within the given capacity, for the next item, we must compare two values. We compare the current value, which is 2. Considering the item's weight is 4, we also assess if we can accommodate the maximum value of 6, given the capacity is 10. Since we can, we add those values together at index 10 (capacity of 10). Subsequently, at a capacity of 9, we evaluate the maximum value at 5, and so on.
 
 ![knapsack item-2]({{ site.baseurl }}/assets/knapsack-weight4.jpg)
 
