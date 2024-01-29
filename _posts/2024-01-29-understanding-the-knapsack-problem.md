@@ -61,7 +61,7 @@ We will continue filling this out. As you can see, we are breaking down our prob
 
 ![knapsack all weights]({{ site.baseurl }}/assets/knapsack-weightsall.jpg)
 
-From here we can just return the last index after we are finished calculating the array with the last item. Voila! The maximum value at a capacity of 10 is 11.
+From here, we can simply return the value at the last index after completing the calculation of the array with the last item. Voila! The maximum value at a capacity of 10 is 11.
 
 Here is the full code in JavaScript:
 
