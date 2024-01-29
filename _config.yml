@@ -22,8 +22,8 @@ title: Tristan's devlog
 email: tristansetha@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my devlog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /devlog23 # the subpath of your site, e.g. /blog
+url: "https://tseth4.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: tristansetha
 github_username:  tseth4
 
