@@ -5,7 +5,7 @@ date: 2024-01-29
 # categories: algorithms
 ---
 
-![knapsack header image](/assets/knapsack-header.png)
+![knapsack header image]({{ site.baseurl }}/assets/knapsack-header.png)
 
 I recently solved a leet code (maximum profit trading stocks) challenge that introduced me to a dynamic programming problem called knapsack.
 
