@@ -19,7 +19,7 @@ We have 3 main variables:
 2. Value
 3. Capacity
 
-Well give these values to make this more concrete
+Lets give these values to make this more concrete
 
 ```jsx
 Weight = [5, 4, 6, 2, 3] 
