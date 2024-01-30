@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Understanding the knapsack problem"
+permalink: understanding-the-knapsack-problem
+description: Unpacking the Knapsack Problem
 date: 2024-01-29
 # categories: algorithms
 ---
